@@ -1,0 +1,36 @@
+
+e
+java:S6208"CMerge the previous cases into this one using comma-separated label.(ÙÆäÊÿÿÿÿÿ8‹‰æí²1
+`
+java:S6208"CMerge the previous cases into this one using comma-separated label.(ç¿Ô8‹‰æí²1
+`
+java:S6208"CMerge the previous cases into this one using comma-separated label.(¡È›8‹‰æí²1
+e
+java:S6208%"CMerge the previous cases into this one using comma-separated label.(ìÔİçúÿÿÿÿ8‹‰æí²1
+e
+java:S6208)"CMerge the previous cases into this one using comma-separated label.(íĞï°ùÿÿÿÿ8‹‰æí²1
+e
+java:S6208/"CMerge the previous cases into this one using comma-separated label.(©‹Ä…úÿÿÿÿ8‹‰æí²1
+e
+java:S62085"CMerge the previous cases into this one using comma-separated label.(‰æÙ«ÿÿÿÿÿ8‹‰æí²1
+e
+java:S6208;"CMerge the previous cases into this one using comma-separated label.(÷±†úÿÿÿÿ8‹‰æí²1
+e
+java:S6208A"CMerge the previous cases into this one using comma-separated label.(ó†ûÿÿÿÿ8‹‰æí²1
+e
+java:S6208G"CMerge the previous cases into this one using comma-separated label.(€î±¤ÿÿÿÿÿ8‹‰æí²1
+e
+java:S6208M"CMerge the previous cases into this one using comma-separated label.(àñµšşÿÿÿÿ8‹‰æí²1
+`
+java:S6208S"CMerge the previous cases into this one using comma-separated label.(ÂÓ¢ê8‹‰æí²1
+e
+java:S6208t"CMerge the previous cases into this one using comma-separated label.(—Í×©øÿÿÿÿ8‹‰æí²1
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8‹‰æí²1
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Äş«ß
+L	java:S106"+Replace this use of System.out by a logger.(ÖãåÍÿÿÿÿÿ8Š‹æí²1
+G	java:S106W"+Replace this use of System.out by a logger.(¸õ¦¬8Š‹æí²1
+G	java:S106`"+Replace this use of System.out by a logger.(÷Ò×8š‹æí²1
+L	java:S106g"+Replace this use of System.out by a logger.(ğ…Âƒÿÿÿÿÿ8š‹æí²1
+H	java:S106€"+Replace this use of System.out by a logger.(¦öíâ8š‹æí²1
+ã
+java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 115 to 64, Complexity from 59 to 14, Nesting Level from 3 to 2, Number of Variables from 7 to 6.(Çµí‘8š‹æí²1
