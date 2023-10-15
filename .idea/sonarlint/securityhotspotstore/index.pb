@@ -13,3 +13,13 @@ I
 src/Lab01/Calculator.java,3\e\3e8adcc3ca44be24c0e951d6f3133fad25885426
 J
 src/Lab01/DaysInMonth.java,7\b\7b41ec7f792c932008d7550e6240dec1622fb1fe
+M
+src/Lab01/StaredTriangle.java,a\5\a534ea42615c5bad4a6079f60df6ea70fd490f9c
+J
+src/Lab01/SortedArray.java,a\7\a726aff301ff1a27c8b79e1b96370eab9d56bcc5
+M
+src/Lab01/MatrixAddition.java,b\e\bea4363b9e2396f2f949c4a54cc60136ab73f368
+M
+src/Lab01/ChoosingOption.java,b\3\b3fc5332c766fc5d85afce49e08fb15cbf4be61f
+P
+ src/Lab01/InputFromKeyBoard.java,a\8\a8a120577d1ab57891e4e640133b5437437e713a
