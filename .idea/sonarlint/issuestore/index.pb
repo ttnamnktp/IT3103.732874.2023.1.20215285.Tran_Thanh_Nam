@@ -23,3 +23,11 @@ M
 src/Lab01/ChoosingOption.java,b\3\b3fc5332c766fc5d85afce49e08fb15cbf4be61f
 P
  src/Lab01/InputFromKeyBoard.java,a\8\a8a120577d1ab57891e4e640133b5437437e713a
+M
+src/Lab01/EquationSolver.java,b\3\b32e4d0ba8b187cfd40a3be4a8d87d4f25e96fa8
+O
+src/Lab02/AimsProject/Aims.java,d\b\db039543ee1c98aefcd12e35d8d97a1a355db423
+[
++src/Lab02/AimsProject/DigitalVideoDisc.java,3\c\3cd5fb7657282df26173a4194ce655d8332f00c8
+O
+src/Lab02/AimsProject/Cart.java,9\4\94e71e3f905ff7798e1649729bf7ec4fde70a25b
