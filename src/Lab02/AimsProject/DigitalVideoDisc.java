@@ -35,7 +35,6 @@ public class DigitalVideoDisc {
 
     // GETTER
 
-
     public String getTitle() {
         return title;
     }
@@ -54,5 +53,27 @@ public class DigitalVideoDisc {
 
     public double getCost() {
         return cost;
+    }
+
+    // SETTER
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public void setDirector(String director) {
+        this.director = director;
+    }
+
+    public void setLenght(int lenght) {
+        this.lenght = lenght;
+    }
+
+    public void setCost(double cost) {
+        this.cost = cost;
     }
 }
