@@ -1,0 +1,5 @@
+7.	Trả lời câu hỏi
+7.1.	If you create a constructor method to build a DVD by title then create a constructor method to build a DVD by category. Does JAVA allow you to do this?
+Yes. In Java, you can have multiple constructor methods in a class as long as they have different parameter lists. This is known as constructor overloading. So, you can create a constructor method to build a DVD by title and another constructor method to build a DVD by category, as long as the parameter lists for these constructors are different.
+7.2.	When should accessor methods be used?
+Accessor methods, also known as getter methods, should be used in Java and many other object-oriented programming languages when you want to access the value of an object's private fields (or instance variables) from outside the class. These methods are important for encapsulation, a fundamental concept in object-oriented programming, as they provide controlled access to the internal state of an object.
