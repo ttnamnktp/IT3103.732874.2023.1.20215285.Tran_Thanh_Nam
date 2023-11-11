@@ -34,7 +34,7 @@ public class Cart {
 
     public void addDigitalVideoDisc (DigitalVideoDisc disc) {
 
-// If cart is full
+    // If cart is full
 
         if (getQtyOrdered() >= 20) {
             System.out.println("The cart is almost full");
@@ -53,6 +53,49 @@ public class Cart {
         System.out.println("The disc has been added");
     }
 
+    // overload addDigitalVideoDisc
+    public void addDigitalVideoDisc (DigitalVideoDisc[] disc) {
+
+        // If cart is full
+        int length = disc.length;
+        if (getQtyOrdered() + length > 20) {
+            System.out.println("The cart is almost full");
+            return;
+        }
+
+        // Increase the qtyOrdered
+        setQtyOrdered(getQtyOrdered() + length);
+
+        // Add to Cart
+        DigitalVideoDisc[] newItemsOrdered = getItemsOrdered();
+        for (int i = 0; i < length; i++ ){
+            newItemsOrdered[getQtyOrdered()-1-i] = disc[i];
+        }
+        setItemsOrdered(newItemsOrdered);
+
+        // Notify
+        System.out.println("The discs have been added");
+    }
+    public void addDigitalVideoDisc (DigitalVideoDisc disc1, DigitalVideoDisc disc2 ) {
+
+        // If cart is full
+        if (getQtyOrdered() + 2 > 20) {
+            System.out.println("The cart is almost full");
+            return;
+        }
+
+        // Increase the qtyOrdered
+        setQtyOrdered(getQtyOrdered() + 2);
+
+        // Add to Cart
+        DigitalVideoDisc[] newItemsOrdered = getItemsOrdered();
+        newItemsOrdered[getQtyOrdered()-1] = disc1;
+        newItemsOrdered[getQtyOrdered()-2] = disc2;
+        setItemsOrdered(newItemsOrdered);
+
+        // Notify
+        System.out.println("The discs have been added");
+    }
     // Remove a disc
     public void removeDigitalVideoDisc (DigitalVideoDisc disc) {
 
