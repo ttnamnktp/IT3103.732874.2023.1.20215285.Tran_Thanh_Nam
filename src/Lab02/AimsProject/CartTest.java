@@ -1,5 +1,6 @@
 package Lab02.AimsProject;
 
+import java.util.Scanner;
 public class CartTest {
     public static void main(String[] args) {
         // Create new cart
@@ -17,6 +18,18 @@ public class CartTest {
         cart.print();
 
         // Test searching method
-        cart.searchById();
+
+        int choice = -1;
+        while (choice != 0 && choice != 1) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter 0 for searching by id, 1 for seaching by title:");
+            choice = scanner.nextInt();
+        }
+        if (choice == 0) {
+            cart.searchById();
+        }
+        else if (choice == 1) {
+            cart.searchByTitle();
+        }
     }
 }

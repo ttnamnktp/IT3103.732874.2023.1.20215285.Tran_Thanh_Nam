@@ -150,30 +150,55 @@ public class Cart {
         System.out.println("***************************************************");
     }
 
-//    public void searchById() {
-//        System.out.println("***********************CART***********************");
-//        // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím
-//        Scanner scanner = new Scanner(System.in);
-//
-//        // Hiển thị thông báo yêu cầu nhập xâu
-//        System.out.println("Enter the id:");
-//
-//        // Đọc xâu từ người dùng
-//        int inputId = scanner.nextInt();
-//
-//        int checkItemFound = 0;
-//        for (int i = 0; i < qtyOrdered; i++){
-//            if(itemsOrdered[i].getId() == inputId) {
-//                System.out.println(itemsOrdered[i].toString() + " found!" );
-//                checkItemFound = 1;
-//            }
-//        }
-//        if (checkItemFound == 0) {
-//            System.out.println("DVD with ID " + inputId + " not found!");
-//        }
-//
-//        System.out.println("***************************************************");
-//        scanner.close();
-//
-//    }
+    public void searchById() {
+        System.out.println("***********************CART***********************");
+        // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím
+        Scanner scanner = new Scanner(System.in);
+
+        // Hiển thị thông báo yêu cầu nhập xâu
+        System.out.println("Enter the id:");
+
+        // Đọc xâu từ người dùng
+        int inputId = scanner.nextInt();
+
+        int checkItemFound = 0;
+        for (int i = 0; i < qtyOrdered; i++){
+            if(itemsOrdered[i].getId() == inputId) {
+                System.out.println(itemsOrdered[i].toString() + " found!" );
+                checkItemFound = 1;
+            }
+        }
+        if (checkItemFound == 0) {
+            System.out.println("DVD with ID " + inputId + " not found!");
+        }
+
+        System.out.println("***************************************************");
+        scanner.close();
+    }
+
+    public void searchByTitle() {
+        System.out.println("***********************CART***********************");
+        // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím
+        Scanner scanner = new Scanner(System.in);
+
+        // Hiển thị thông báo yêu cầu nhập xâu
+        System.out.println("Enter the title:");
+
+        // Đọc xâu từ người dùng
+        String inputTitle = scanner.nextLine();
+
+        int checkItemFound = 0;
+        for (int i = 0; i < qtyOrdered; i++){
+            if(itemsOrdered[i].getTitle().equals(inputTitle)) {
+                System.out.println(itemsOrdered[i].toString() + " found!" );
+                checkItemFound = 1;
+            }
+        }
+        if (checkItemFound == 0) {
+            System.out.println("DVD with title " + inputTitle + " not found!");
+        }
+
+        System.out.println("***************************************************");
+        scanner.close();
+    }
 }
