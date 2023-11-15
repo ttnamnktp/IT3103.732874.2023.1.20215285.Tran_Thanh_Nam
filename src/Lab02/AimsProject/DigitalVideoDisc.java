@@ -1,6 +1,8 @@
 package Lab02.AimsProject;
 
 public class DigitalVideoDisc {
+    private static int nbDigitalVideoDiscs = 0;  // Class attribute
+    private int id;  // Instance attribute
     private String title;
     private String category;
     private String director;
@@ -10,12 +12,14 @@ public class DigitalVideoDisc {
     // Constructor
     public DigitalVideoDisc(String title) {
         this.title = title;
+        this.id = ++nbDigitalVideoDiscs;
     }
 
     public DigitalVideoDisc(String title, String category, double cost) {
         this.title = title;
         this.category = category;
         this.cost = cost;
+        this.id = ++nbDigitalVideoDiscs;
     }
 
     public DigitalVideoDisc(String title, String category, String director, double cost) {
@@ -23,6 +27,7 @@ public class DigitalVideoDisc {
         this.category = category;
         this.director = director;
         this.cost = cost;
+        this.id = ++nbDigitalVideoDiscs;
     }
 
     public DigitalVideoDisc(String title, String category, String director, int lenght, double cost) {
@@ -31,6 +36,7 @@ public class DigitalVideoDisc {
         this.director = director;
         this.lenght = lenght;
         this.cost = cost;
+        this.id = ++nbDigitalVideoDiscs;
     }
 
     // GETTER
@@ -76,4 +82,6 @@ public class DigitalVideoDisc {
     public void setCost(double cost) {
         this.cost = cost;
     }
+
+
 }
