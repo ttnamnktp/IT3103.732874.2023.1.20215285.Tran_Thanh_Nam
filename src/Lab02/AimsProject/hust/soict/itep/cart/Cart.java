@@ -1,4 +1,6 @@
-package Lab02.AimsProject;
+package Lab02.AimsProject.hust.soict.itep.cart;
+
+import Lab02.AimsProject.hust.soict.itep.disc.DigitalVideoDisc;
 
 import java.util.Scanner;
 
@@ -6,7 +8,7 @@ public class Cart {
 
     // Attribute
 
-    private DigitalVideoDisc []itemsOrdered = new DigitalVideoDisc [MAX_NUMBERS_ORDERED];
+    private DigitalVideoDisc[]itemsOrdered = new DigitalVideoDisc [MAX_NUMBERS_ORDERED];
     private int qtyOrdered;
     public static final int MAX_NUMBERS_ORDERED = 20;
 

@@ -1,4 +1,7 @@
-package Lab02.AimsProject;
+package Lab02.AimsProject.hust.soict.itep.cart;
+
+import Lab02.AimsProject.hust.soict.itep.cart.Cart;
+import Lab02.AimsProject.hust.soict.itep.disc.DigitalVideoDisc;
 
 import java.util.Scanner;
 public class CartTest {

@@ -1,4 +1,4 @@
-package Lab02.AimsProject;
+package Lab02.AimsProject.hust.soict.itep.disc;
 
 public class DigitalVideoDisc {
     private static int nbDigitalVideoDiscs = 0;  // Class attribute

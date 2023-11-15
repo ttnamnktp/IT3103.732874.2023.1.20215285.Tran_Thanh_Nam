@@ -1,4 +1,7 @@
-package Lab02.AimsProject;
+package Lab02.AimsProject.hust.soict.itep.store;
+
+import Lab02.AimsProject.hust.soict.itep.disc.DigitalVideoDisc;
+import Lab02.AimsProject.hust.soict.itep.store.Store;
 
 public class StoreTest {
     public static void main(String[] args) {

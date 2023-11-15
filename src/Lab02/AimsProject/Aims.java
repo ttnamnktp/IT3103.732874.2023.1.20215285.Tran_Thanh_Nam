@@ -1,5 +1,8 @@
 package Lab02.AimsProject;
 
+import Lab02.AimsProject.hust.soict.itep.cart.Cart;
+import Lab02.AimsProject.hust.soict.itep.disc.DigitalVideoDisc;
+
 public class Aims {
 
     public static void main(String[] args) {
