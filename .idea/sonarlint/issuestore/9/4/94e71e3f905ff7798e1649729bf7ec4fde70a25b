@@ -1,8 +1,14 @@
 
+u
+java:S1192("XDefine a constant instead of duplicating this literal "The cart is almost full" 3 times.(‘Ÿ±ý8ÑÜ–ó¼1
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­ †“ÿÿÿÿÿ8ÌÐ©Œ¸1
 G	java:S106("+Replace this use of System.out by a logger.(‘Ÿ±ý8ÓÐ©Œ¸1
 G	java:S1065"+Replace this use of System.out by a logger.(óà÷™8ÜÐ©Œ¸1
-G	java:S106F"+Replace this use of System.out by a logger.(€î©ž8ÝÐ©Œ¸1
-F	java:S106S"+Replace this use of System.out by a logger.(¡Ïù8ÝÐ©Œ¸1
-a
-java:S1117Y"?Rename "itemsOrdered" which hides the field declared at line 7.(Ÿí©µúÿÿÿÿ8ÝÐ©Œ¸1
+G	java:S106>"+Replace this use of System.out by a logger.(‘Ÿ±ý8‘Þ–ó¼1
+G	java:S106M"+Replace this use of System.out by a logger.(öÃŸ³8—Þ–ó¼1
+G	java:S106S"+Replace this use of System.out by a logger.(‘Ÿ±ý8ÝÐ©Œ¸1
+G	java:S106a"+Replace this use of System.out by a logger.(öÃŸ³8¢Þ–ó¼1
+G	java:S106q"+Replace this use of System.out by a logger.(€î©ž8ÝÐ©Œ¸1
+F	java:S106~"+Replace this use of System.out by a logger.(¡Ïù8´Þ–ó¼1
+b
+java:S1117„"?Rename "itemsOrdered" which hides the field declared at line 7.(Ÿí©µúÿÿÿÿ8ÝÐ©Œ¸1
