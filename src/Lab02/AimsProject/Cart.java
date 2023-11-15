@@ -1,5 +1,7 @@
 package Lab02.AimsProject;
 
+import java.util.Scanner;
+
 public class Cart {
 
     // Attribute
@@ -137,4 +139,41 @@ public class Cart {
         }
         return Math.round(cost*100.0)/100.0;
     }
+
+    public void print() {
+        System.out.println("***********************CART***********************");
+        System.out.println("Ordered Items:");
+        for (int i = 0; i < qtyOrdered; i++){
+            System.out.println( i + 1 + ". " + itemsOrdered[i].toString());
+        }
+        System.out.println("Total cost: " + totalCost());
+        System.out.println("***************************************************");
+    }
+
+//    public void searchById() {
+//        System.out.println("***********************CART***********************");
+//        // Tạo đối tượng Scanner để nhập dữ liệu từ bàn phím
+//        Scanner scanner = new Scanner(System.in);
+//
+//        // Hiển thị thông báo yêu cầu nhập xâu
+//        System.out.println("Enter the id:");
+//
+//        // Đọc xâu từ người dùng
+//        int inputId = scanner.nextInt();
+//
+//        int checkItemFound = 0;
+//        for (int i = 0; i < qtyOrdered; i++){
+//            if(itemsOrdered[i].getId() == inputId) {
+//                System.out.println(itemsOrdered[i].toString() + " found!" );
+//                checkItemFound = 1;
+//            }
+//        }
+//        if (checkItemFound == 0) {
+//            System.out.println("DVD with ID " + inputId + " not found!");
+//        }
+//
+//        System.out.println("***************************************************");
+//        scanner.close();
+//
+//    }
 }

@@ -60,6 +60,9 @@ public class DigitalVideoDisc {
     public double getCost() {
         return cost;
     }
+    public int getId() {
+        return id;
+    }
 
     // SETTER
 
@@ -83,5 +86,14 @@ public class DigitalVideoDisc {
         this.cost = cost;
     }
 
-
+    // toString() method
+    @Override
+    public String toString(){
+        return "DVD - "
+            + getTitle() + " - "
+            + getCategory() + " - "
+            + getDirector() + " - "
+            + getLenght() + " : "
+            + getCost() + "$";
+    }
 }
