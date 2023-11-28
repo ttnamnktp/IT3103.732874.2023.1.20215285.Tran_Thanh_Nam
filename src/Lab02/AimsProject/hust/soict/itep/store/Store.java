@@ -1,89 +1,72 @@
 package Lab02.AimsProject.hust.soict.itep.store;
 
-import Lab02.AimsProject.hust.soict.itep.disc.DigitalVideoDisc;
+import Lab02.AimsProject.hust.soict.itep.aims.media.DigitalVideoDisc;
+import Lab02.AimsProject.hust.soict.itep.aims.media.Media;
+
+import java.util.ArrayList;
 
 public class Store {
-    DigitalVideoDisc itemsInStore[] = new DigitalVideoDisc[MAX_ITEM];
-    private int qtyDisc;
-    public static final int MAX_ITEM = 1000;
+    private ArrayList<Media> itemsInStore = new ArrayList<Media>();
+    private static final int MAX_ITEM = 1000;
 
-    // SETTER
-
-    public void setItemsInStore(DigitalVideoDisc[] itemsInStore) {
+    // ----------------------- SETTER & GETTER ------------------------
+    public void setItemsInStore(ArrayList<Media> itemsInStore) {
         this.itemsInStore = itemsInStore;
     }
 
-    public void setQtyDisc(int qtyDisc) {
-        this.qtyDisc = qtyDisc;
-    }
-
-    // GETTER
-
-    public DigitalVideoDisc[] getItemsInStore() {
+    public ArrayList<Media> getItemsInStore() {
         return itemsInStore;
     }
+    //------------------------------------------------------------------
 
-    public int getQtyDisc() {
-        return qtyDisc;
-    }
 
-    // Adding method
-    public void addDigitalVideoDisc (DigitalVideoDisc disc) {
-
+    // -------------------------- Adding method -------------------------
+    public void addMedia (Media media) {
         // If cart is full
-
-        if (getQtyDisc() >= MAX_ITEM) {
+        if (itemsInStore.size() >= MAX_ITEM) {
             System.out.println("The store is almost full");
             return;
         }
-
-        // Increase the qtyOrdered
-        setQtyDisc(getQtyDisc() + 1);
-
-        // Add to Cart
-        DigitalVideoDisc[] newItems = getItemsInStore();
-        newItems[getQtyDisc() - 1] = disc;
-        setItemsInStore(newItems);
-
-        // Notify
-        System.out.println("The disc has been added");
+        // Else
+        itemsInStore.add(media);
+        System.out.println("The media has been added");
     }
 
-    public void removeDigitalVideoDisc (DigitalVideoDisc disc) {
-
-        // Search for disc
-        int indexOfRemoved = -1;
-        DigitalVideoDisc []newItems = getItemsInStore();
-        for (int i = 0; i < getQtyDisc(); i++) {
-            if (newItems[i].equals(disc)) {
-                indexOfRemoved = i;
-                break;
-            }
+    public void removeMedia (Media media) {
+        // if can remove
+        if (itemsInStore.remove(media)) {
+            System.out.println("The media has been removed");
+        } else {
+            System.out.println("The media is not found");
         }
-        // If not found
-        if (indexOfRemoved == -1) {
-            System.out.println("The disc is not found");
-            return;
-        }
-
-        // Remove
-        for (int i=indexOfRemoved; i < getQtyDisc() - 1; i++) {
-            newItems[i] = newItems[i + 1];
-        }
-        newItems[getQtyDisc () - 1] = null;
-        setQtyDisc(getQtyDisc() - 1);
-        setItemsInStore(newItems);
-
-        // Notify
-        System.out.println("The disc has been removed");
     }
 
     public void print() {
         System.out.println("***********************STORE***********************");
         System.out.println("Items in store:");
-        for (int i = 0; i < getQtyDisc(); i++){
-            System.out.println( i + 1 + ". " + getItemsInStore()[i].toString());
+        for (Media media : itemsInStore) {
+            System.out.println(media.toString());
         }
         System.out.println("****************************************************");
     }
+
+    // ---------------------- SEARCH BY TITLE ---------------------
+    public Media findMediaByTitle(String title) {
+        for (Media media : itemsInStore) {
+            if (media.getTitle().equalsIgnoreCase(title)) {
+                return media;
+            }
+        }
+        return null; // Not found
+    }
+
+    public Media findMediaById(int id) {
+        for (Media media : itemsInStore) {
+            if (media.getId() == id) {
+                return media;
+            }
+        }
+        return null; // Not found
+    }
+
 }

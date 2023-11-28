@@ -1,0 +1,16 @@
+
+q
+java:S1192"VDefine a constant instead of duplicating this literal "Jungle DVD title is: " 3 times.(‹¥λϋÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(λύς‘ϋÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(‹¥λϋÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Ò²Ηψÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(‹¥λϋÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ΏΟ‚θϊÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(‹¥λϋÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Ò²Ηψÿÿÿÿ
+L
+java:S1854"6Remove this useless assignment to local variable "o2".(Μπλ
+Q
+java:S1854"6Remove this useless assignment to local variable "o1".(υ†ώ‰ύÿÿÿÿ
+R
+java:S1854!"7Remove this useless assignment to local variable "dvd".(ύΡ›τόÿÿÿÿ

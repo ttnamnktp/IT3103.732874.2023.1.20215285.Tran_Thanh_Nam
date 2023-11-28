@@ -1,0 +1,18 @@
+
+v
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹ë¤8ŸÛÛšÁ1
+‰
+java:S1319"lThe type of "itemsInStore" should be an interface such as "List" rather than the implementation "ArrayList".(¢¬„¥8¢ÛÛšÁ1
+’
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÒëÆÿşÿÿÿÿ8îÛÛšÁ1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…Ó¨—üÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(Íõ‡ı
+G	java:S106 "+Replace this use of System.out by a logger.(›Ô¨ú8ÜÛšÁ1
+G	java:S106&"+Replace this use of System.out by a logger.(¥’ä§8‘ÜÛšÁ1
+G	java:S106("+Replace this use of System.out by a logger.(£Ñè‡8’ÜÛšÁ1
+E	java:S106-"+Replace this use of System.out by a logger.(¡„’üûÿÿÿÿ
+E	java:S106."+Replace this use of System.out by a logger.(åæŠÇûÿÿÿÿ
+G	java:S1060"+Replace this use of System.out by a logger.(ı±µ©8•ÜÛšÁ1
+@	java:S1062"+Replace this use of System.out by a logger.(¸¯™°
+|
+java:S1128"ZRemove this unused import 'Lab02.AimsProject.hust.soict.itep.aims.media.DigitalVideoDisc'.(÷¾Ï–úÿÿÿÿ8™ÜÛšÁ1
