@@ -1,0 +1,16 @@
+
+8
+java:S1643"Use a StringBuilder instead.(™©»J8´û›œ½1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êğçªşÿÿÿÿ
+W
+java:S1854"5Remove this useless assignment to local variable "s".(‚Óîšüÿÿÿÿ8Äû›œ½1
+H
+java:S1481"&Remove this unused "s" local variable.(®şîìøÿÿÿÿ8Ôû›œ½1
+L	java:S106"+Replace this use of System.out by a logger.(‡ä½Åúÿÿÿÿ8Õû›œ½1
+L	java:S106"+Replace this use of System.out by a logger.(‡ä½Åúÿÿÿÿ8Õû›œ½1
+F
+java:S1128"0Remove this unused import 'java.nio.file.Files'.(‚ƒü
+E
+java:S1128"/Remove this unused import 'java.nio.file.Path'.(×²êÂ
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ
