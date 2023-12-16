@@ -3,5 +3,5 @@ o	java:S120"ZRename this package name to match the regular expression '^[a-z_
 G	java:S106
 "+Replace this use of System.out by a logger.(Ì…Î8Ê‰Ó÷À1
 G	java:S106"+Replace this use of System.out by a logger.(²¼ÎÓ8Ë‰Ó÷À1
-V	java:S125"<This block of commented-out lines of code should be removed.(áÈ…æıÿÿÿÿ
-V	java:S125h"<This block of commented-out lines of code should be removed.(òß¿•üÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(áÈ…æıÿÿÿÿ
+V	java:S125o"<This block of commented-out lines of code should be removed.(òß¿•üÿÿÿÿ

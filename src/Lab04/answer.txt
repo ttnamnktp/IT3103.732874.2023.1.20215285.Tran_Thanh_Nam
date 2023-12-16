@@ -1,0 +1,41 @@
+Khi sử dụng phương pháp Comparable:
+
+1. Lớp cần thực hiện Comparable Interface:
+
+Lớp mà ta muốn so sánh đối tượng của nó nên thực hiện giao diện Comparable.
+
+2. Thực Hiện Phương Thức compareTo():
+
+Trong lớp thực hiện, ta nên ghi đè phương thức compareTo(). Phương thức nên trả về một số nguyên âm, không hoặc số nguyên dương nếu đối tượng hiện tại ít hơn, bằng hoặc lớn hơn đối tượng được chỉ định, tương ứng.
+
+3. Nhiều Qui Tắc Sắp Xếp:
+
+Phương thức compareTo() cung cấp một qui tắc sắp xếp duy nhất. Nếu ta muốn nhiều qui tắc sắp xếp, ta có thể thực hiện chúng trong cùng một phương thức bằng cách sử dụng các câu lệnh điều kiện.
+Ví dụ, nếu ta muốn sắp xếp trước tiên theo tiêu đề và sau đó theo giá, bạn có thể có logic như sau:
+java
+Copy code
+public int compareTo(Media other) {
+    int titleComparison = this.getTitle().compareTo(other.getTitle());
+    if (titleComparison != 0) {
+        return titleComparison;
+    }
+    // Nếu các tiêu đề bằng nhau, so sánh theo giá
+    return Float.compare(this.getCost(), other.getCost());
+}
+
+4. Các cách sắp Xếp Khác Nhau Cho DVDs:
+
+Để cho phép qui tắc sắp xếp khác nhau cho DVDs, bạn có thể thêm kiểm tra trong phương thức compareTo() để phân biệt giữa các loại phương tiện khác nhau.
+Ví dụ, nếu DVDs có qui tắc sắp xếp khác nhau, bạn có thể thực hiện điều gì đó như sau:
+java
+Copy code
+public int compareTo(Media other) {
+    if (this instanceof DigitalVideoDisc && other instanceof DigitalVideoDisc) {
+        // Thực hiện qui tắc sắp xếp cụ thể cho DVDs
+        // Ví dụ, sắp xếp theo tiêu đề, sau đó là độ dài giảm dần, sau đó là giá
+    } else {
+        // Thực hiện qui tắc sắp xếp mặc định cho các loại phương tiện khác
+        // Ví dụ, sắp xếp theo tiêu đề, sau đó là giá
+    }
+}
+Hãy nhớ rằng phương thức compareTo() nên tuân theo hợp đồng chung được chỉ định trong giao diện Comparable, đảm bảo rằng nó là reflexive, symmetric và transitive.
