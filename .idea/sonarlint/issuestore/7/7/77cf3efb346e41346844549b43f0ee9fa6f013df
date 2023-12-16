@@ -2,7 +2,7 @@
 t
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕøŠôýÿÿÿÿ
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯õÚ«üÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(ý±µ©
-@	java:S106 "+Replace this use of System.out by a logger.(ý±µ©
+]	java:S125"<This block of commented-out lines of code should be removed.(…ƒ¶ˆþÿÿÿÿ8Ž²¿µÁ1
+G	java:S106""+Replace this use of System.out by a logger.(ý±µ©8ˆ¿µÁ1
 M
 java:S1128	"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ

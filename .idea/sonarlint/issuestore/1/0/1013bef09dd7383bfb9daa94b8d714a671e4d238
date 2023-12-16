@@ -1,51 +1,51 @@
 
 {
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ú”ååüÿÿÿÿ8ı­œÁ1
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ú”ååüÿÿÿÿ8°ª³Á1
 •
-java:S1192n"sDefine a constant instead of duplicating this literal "***********************CART***********************" 3 times.(æç«ÿûÿÿÿÿ8ı­œÁ1
+java:S1192n"sDefine a constant instead of duplicating this literal "***********************CART***********************" 3 times.(æç«ÿûÿÿÿÿ8°ª³Á1
 o
-java:S1192‰"LDefine a constant instead of duplicating this literal " not found!" 4 times.(±½Øëøÿÿÿÿ8¶Õ¦¢Á1
+java:S1192‰"LDefine a constant instead of duplicating this literal " not found!" 4 times.(±½Øëøÿÿÿÿ8°ª³Á1
 k
-java:S1192„"HDefine a constant instead of duplicating this literal " found!" 4 times.(Š¯¿ƒşÿÿÿÿ8¶Õ¦¢Á1
+java:S1192„"HDefine a constant instead of duplicating this literal " found!" 4 times.(Š¯¿ƒşÿÿÿÿ8°ª³Á1
 u
-java:S1192*"XDefine a constant instead of duplicating this literal "The cart is almost full" 3 times.(‘Ÿ±ı8ı­œÁ1
+java:S1192*"XDefine a constant instead of duplicating this literal "The cart is almost full" 3 times.(‘Ÿ±ı8°ª³Á1
 ‘
-java:S1192t"tDefine a constant instead of duplicating this literal "***************************************************" 5 times.(ú÷¸ª8ı­œÁ1
+java:S1192t"tDefine a constant instead of duplicating this literal "***************************************************" 5 times.(ú÷¸ª8°ª³Á1
 ’
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(íšÎ·ıÿÿÿÿ8ı­œÁ1
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(íšÎ·ıÿÿÿÿ8°ª³Á1
 ‰
-java:S1319"lThe type of "itemsOrdered" should be an interface such as "List" rather than the implementation "ArrayList".(×‚Ú8ı­œÁ1
+java:S1319"lThe type of "itemsOrdered" should be an interface such as "List" rather than the implementation "ArrayList".(×‚Ú8°ª³Á1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğ³§ä8®œÁ1
 £
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²¸ş¾ÿÿÿÿÿ8œ®œÁ1
-G	java:S106*"+Replace this use of System.out by a logger.(‘Ÿ±ı8œ®œÁ1
-G	java:S1063"+Replace this use of System.out by a logger.(›Ô¨ú8œ®œÁ1
-G	java:S106;"+Replace this use of System.out by a logger.(‘Ÿ±ı8œ®œÁ1
-G	java:S106D"+Replace this use of System.out by a logger.(Ë˜‰â8œ®œÁ1
-G	java:S106J"+Replace this use of System.out by a logger.(‘Ÿ±ı8œ®œÁ1
-G	java:S106S"+Replace this use of System.out by a logger.(Ë˜‰â8œ®œÁ1
-G	java:S106\"+Replace this use of System.out by a logger.(¥’ä§8œ®œÁ1
-G	java:S106^"+Replace this use of System.out by a logger.(£Ñè‡8œ®œÁ1
-L	java:S106n"+Replace this use of System.out by a logger.(æç«ÿûÿÿÿÿ8œ®œÁ1
-G	java:S106o"+Replace this use of System.out by a logger.(ìãœ§8œ®œÁ1
-G	java:S106q"+Replace this use of System.out by a logger.(ı±µ©8œ®œÁ1
-G	java:S106s"+Replace this use of System.out by a logger.(•„ô…8œ®œÁ1
-G	java:S106t"+Replace this use of System.out by a logger.(ú÷¸ª8œ®œÁ1
-L	java:S106w"+Replace this use of System.out by a logger.(æç«ÿûÿÿÿÿ8œ®œÁ1
-G	java:S106|"+Replace this use of System.out by a logger.(í£êØ8œ®œÁ1
-M	java:S106„"+Replace this use of System.out by a logger.(Š¯¿ƒşÿÿÿÿ8œ®œÁ1
-M	java:S106‰"+Replace this use of System.out by a logger.(±½Øëøÿÿÿÿ8œ®œÁ1
-H	java:S106Œ"+Replace this use of System.out by a logger.(ú÷¸ª8œ®œÁ1
-M	java:S106•"+Replace this use of System.out by a logger.(Š¯¿ƒşÿÿÿÿ8œ®œÁ1
-M	java:S106š"+Replace this use of System.out by a logger.(Ê¬‘åüÿÿÿÿ8œ®œÁ1
-H	java:S106œ"+Replace this use of System.out by a logger.(ú÷¸ª8œ®œÁ1
-M	java:S106 "+Replace this use of System.out by a logger.(æç«ÿûÿÿÿÿ8äÕ¦¢Á1
-H	java:S106¥"+Replace this use of System.out by a logger.(´æ¢Ã8äÕ¦¢Á1
-M	java:S106­"+Replace this use of System.out by a logger.(Š¯¿ƒşÿÿÿÿ8äÕ¦¢Á1
-H	java:S106²"+Replace this use of System.out by a logger.(³¼…Å8äÕ¦¢Á1
-H	java:S106µ"+Replace this use of System.out by a logger.(ú÷¸ª8äÕ¦¢Á1
-M	java:S106¾"+Replace this use of System.out by a logger.(Š¯¿ƒşÿÿÿÿ8ñÇ°¢Á1
-H	java:S106Ã"+Replace this use of System.out by a logger.(³¼…Å8ñÇ°¢Á1
-H	java:S106Å"+Replace this use of System.out by a logger.(ú÷¸ª8ñÇ°¢Á1
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²¸ş¾ÿÿÿÿÿ8Àª³Á1
+G	java:S106*"+Replace this use of System.out by a logger.(‘Ÿ±ı8Ïª³Á1
+G	java:S1063"+Replace this use of System.out by a logger.(›Ô¨ú8Ïª³Á1
+G	java:S106;"+Replace this use of System.out by a logger.(‘Ÿ±ı8Ğª³Á1
+G	java:S106D"+Replace this use of System.out by a logger.(Ë˜‰â8Ñª³Á1
+G	java:S106J"+Replace this use of System.out by a logger.(‘Ÿ±ı8Ñª³Á1
+G	java:S106S"+Replace this use of System.out by a logger.(Ë˜‰â8Ñª³Á1
+G	java:S106\"+Replace this use of System.out by a logger.(¥’ä§8Òª³Á1
+G	java:S106^"+Replace this use of System.out by a logger.(£Ñè‡8Òª³Á1
+L	java:S106n"+Replace this use of System.out by a logger.(æç«ÿûÿÿÿÿ8Óª³Á1
+G	java:S106o"+Replace this use of System.out by a logger.(ìãœ§8Óª³Á1
+G	java:S106q"+Replace this use of System.out by a logger.(ı±µ©8Óª³Á1
+G	java:S106s"+Replace this use of System.out by a logger.(•„ô…8Óª³Á1
+G	java:S106t"+Replace this use of System.out by a logger.(ú÷¸ª8Ôª³Á1
+L	java:S106w"+Replace this use of System.out by a logger.(æç«ÿûÿÿÿÿ8Ôª³Á1
+G	java:S106|"+Replace this use of System.out by a logger.(í£êØ8Öª³Á1
+M	java:S106„"+Replace this use of System.out by a logger.(Š¯¿ƒşÿÿÿÿ8Öª³Á1
+M	java:S106‰"+Replace this use of System.out by a logger.(±½Øëøÿÿÿÿ8Öª³Á1
+H	java:S106Œ"+Replace this use of System.out by a logger.(ú÷¸ª8Öª³Á1
+M	java:S106•"+Replace this use of System.out by a logger.(Š¯¿ƒşÿÿÿÿ8×ª³Á1
+M	java:S106š"+Replace this use of System.out by a logger.(Ê¬‘åüÿÿÿÿ8×ª³Á1
+H	java:S106œ"+Replace this use of System.out by a logger.(ú÷¸ª8×ª³Á1
+M	java:S106 "+Replace this use of System.out by a logger.(æç«ÿûÿÿÿÿ8×ª³Á1
+H	java:S106¥"+Replace this use of System.out by a logger.(´æ¢Ã8Øª³Á1
+M	java:S106­"+Replace this use of System.out by a logger.(Š¯¿ƒşÿÿÿÿ8Øª³Á1
+M	java:S106²"+Replace this use of System.out by a logger.(Ù£…Îúÿÿÿÿ8Øª³Á1
+H	java:S106µ"+Replace this use of System.out by a logger.(ú÷¸ª8Øª³Á1
+M	java:S106¾"+Replace this use of System.out by a logger.(Š¯¿ƒşÿÿÿÿ8Ùª³Á1
+M	java:S106Ã"+Replace this use of System.out by a logger.(Ù£…Îúÿÿÿÿ8Ùª³Á1
+H	java:S106Å"+Replace this use of System.out by a logger.(ú÷¸ª8Ùª³Á1
 |
-java:S1128"ZRemove this unused import 'Lab02.AimsProject.hust.soict.itep.aims.media.DigitalVideoDisc'.(÷¾Ï–úÿÿÿÿ8íú±¢Á1
+java:S1128"ZRemove this unused import 'Lab02.AimsProject.hust.soict.itep.aims.media.DigitalVideoDisc'.(÷¾Ï–úÿÿÿÿ8Ùª³Á1

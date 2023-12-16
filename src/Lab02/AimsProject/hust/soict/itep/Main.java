@@ -22,12 +22,14 @@ public class Main {
         mediaList.add(b);
 
         // Iterate through the list and print out the information
-        for (Media media : mediaList) {
-            System.out.println(media.toString());
-
-        }
+//        for (Media media : mediaList) {
+//            System.out.println(media.toString());
+//
+//        }
 
         mediaList.sort(Media.COMPARE_BY_TITLE_COST);
+        mediaList.sort(Media.COMPARE_BY_COST_TITLE);
+
         for (Media media : mediaList) {
             System.out.println(media.toString());
         }
